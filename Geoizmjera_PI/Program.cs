@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Samostalna_vježba_4_labosa
+namespace Geoizmjera_PI
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Samostalna_vježba_4_labosa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new izrSvojstavaKruga());
+            Application.Run(new grid());
         }
     }
 }
